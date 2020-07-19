@@ -1,0 +1,71 @@
+.homepage  {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #a6dcef;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.visualizer-outer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ddf3f5;
+}
+
+.visualizer {
+    margin-top: 100px;
+    padding: 0 5px;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: #ade498;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    width: 95vw;
+    height: 70vh;
+}
+.arrayBar {
+    background-color: #ff847c;
+    margin: 0 1px 1px;
+    flex-grow: 1;
+}
+
+.menuBar1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    width: 20%;
+}
+
+.menuBar2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    width: 15%;
+}
+
+.styledButton {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 6vw;
+    min-width: 90px;
+    height: 5vh;
+    min-height: 15px;
+}
+.styledButton:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .sliderTab {
+      width: 4vw;
+  }
