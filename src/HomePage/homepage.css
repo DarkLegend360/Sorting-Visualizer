@@ -47,12 +47,14 @@
 .menuBar2 {
     display: flex;
     justify-content: space-between;
-    margin: 20px 40px;
-    width: 15%;
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 20%;
 }
 
 .styledButton {
     background-color: black;
+    margin-right: 2px;
     color: white;
     border: none;
     width: 6vw;
